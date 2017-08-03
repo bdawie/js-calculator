@@ -1,0 +1,95 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{pageTitle}}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Orbitron">
+    <link rel="stylesheet" href="/css/calc.css">
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   
+    <body>
+      <div class="container">
+        <div class="innerContainer">
+          <h4 class="text-center">Online Calculator</h4>
+            <div class="row">
+               <div class="col-xs-12">
+                  <label id="resLabel" class=" text-right form-control resultLabel" for="calc">0</label>
+             
+               </div>
+            </div>
+           
+            <div class="row set" id="firstSet">
+                <div class="col-xs-3">
+                    <button id='ac' class=" ac form-control btn btn-primary">AC</button>
+                </div>
+                <div class=" col-xs-3">
+                    <button id="ce" class=" form-control btn btn-primary">CE</button>
+                </div>
+                <div class="col-xs-3">
+                   <button class=" opsBtn form-control btn btn-default">/</button>
+               </div>
+                <div class="col-xs-3">
+                   <button class=" opsBtn form-control btn btn-default">*</button>
+               </div>
+              </div>
+              <div class="row set" id="secondSet">
+                <div class="col-xs-3">
+                    <button class=" defBtn form-control btn btn-default">7</button>
+                </div>
+                <div class=" col-xs-3">
+                    <button class=" defBtn form-control btn btn-default">8</button>
+                </div>
+                <div class="col-xs-3">
+                   <button class="defBtn form-control btn btn-default">9</button>
+               </div>
+                <div class="col-xs-3">
+                   <button class="opsBtn form-control btn btn-default">-</button>
+               </div>
+              </div>
+              <div class="row set" id="thirdSet">
+                <div class="col-xs-3">
+                    <button class="defBtn form-control btn btn-default">4</button>
+                </div>
+                <div class=" col-xs-3">
+                    <button class="defBtn form-control btn btn-default">5</button>
+                </div>
+                <div class="col-xs-3">
+                   <button class="defBtn form-control btn btn-default">6</button>
+               </div>
+                <div class="col-xs-3">
+                   <button class="opsBtn form-control btn btn-default">+</button>
+               </div>
+              </div>
+              <div class="row set" id="fourthSet">
+                <div class="col-xs-3">
+                    <button class=" defBtn form-control btn btn-default">1</button>
+                </div>
+                <div class=" col-xs-3">
+                    <button class="defBtn form-control btn btn-default">2</button>
+                </div>
+                <div class="col-xs-3">
+                   <button class="defBtn form-control btn btn-default">3</button>
+               </div>
+               <div class="col-xs-3">
+                   <button id="equal" class=" resBtn form-control btn btn-default">=</button>
+                 </div>
+              </div>
+              <div class="row set" id="fifthSet">
+                <div class="col-xs-9">
+                    <button class=" defBtn form-control btn btn-default">0</button>
+                </div>
+                <div class=" col-xs-3">
+                    <button id="floatPoint" class="  form-control btn btn-default">.</button>
+                </div>
+            </div>   
+        </div>
+        <p> &#60;&#47;&#62; by Ibrahim Bdawie 	&#169;</p>
+
+        
+      </div>
+       <script src="/js/jquery-3.2.1.min.js"></script> 
+    <script type="text/javascript" src="/js/calc.js"></script>
+    </body>
+  </head>
+</html>
